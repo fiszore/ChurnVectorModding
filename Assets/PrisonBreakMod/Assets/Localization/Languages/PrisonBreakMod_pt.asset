@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: PrisonBreakMod_pt
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pt
+  m_SharedData: {fileID: 11400000, guid: 09105430001d7424a9c35ff9ec274c87, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 159430135808
+    m_Localized: "Fuga da Pris\xE3o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 253495791616
+    m_Localized: "Depois de ser capturado pela GlorpCo, voc\xEA precisa escapar!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 519808929792
+    m_Localized: Saia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 411806946742272
+    m_Localized: "Agente, est\xE1 me ouvindo? Voc\xEA precisa sair da\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412025037967360
+    m_Localized: "Nem vou perguntar como voc\xEA passou seu comunicador pela seguran\xE7a..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412350331408384
+    m_Localized: "Um policial vir\xE1 interrog\xE1-lo, essa ser\xE1 sua passagem
+      para fora da cela."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412490337275904
+    m_Localized: "Esteja avisado, a seguran\xE7a aqui \xE9 um pouco diferente do
+      que voc\xEA est\xE1 acostumado."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412565033635840
+    m_Localized: "Todas as portas verdes funcionam como esperado, basta tocar na
+      \xE1rea central e elas ser\xE3o abertas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412884417302528
+    m_Localized: "As portas azuis, por outro lado, n\xE3o podem ser abertas normalmente."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412982119419904
+    m_Localized: "Se voc\xEA encontrar um terminal de acesso, voc\xEA conseguir\xE1
+      abrir essas portas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 413095067832320
+    m_Localized: "O guarda est\xE1 se aproximando, voc\xEA acordou.\nBoa sorte, agente."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22367388935049216
+    m_Localized: Escapar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22367773938601984
+    m_Localized: "Encontre uma maneira de escapar da instala\xE7\xE3o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22367938804109312
+    m_Localized: Mantenha um perfil baixo...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22368139904208896
+    m_Localized: "Fuja sem alertar a seguran\xE7a"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22368273358573568
+    m_Localized: CV o Diretor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22369034335342592
+    m_Localized: Causar um pouco de caos!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22369325063524352
+    m_Localized: "Acompanhar o VIP at\xE9 a sa\xEDda"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22369412472819712
+    m_Localized: "A \xFAnica maneira que voc\xEA conhece... como uma camisinha!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22369813393756160
+    m_Localized: "Excelente trabalho, agente. Vejo voc\xEA do outro lado."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22370233231003648
+    m_Localized: "Se voc\xEA estiver disposto, temos um pedido para voc\xEA."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22370418040426496
+    m_Localized: "H\xE1 um VIP em uma cela perto de voc\xEA.\nTraga-o com voc\xEA,
+      se puder."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22370646848098304
+    m_Localized: Embora isso dificulte sua fuga...
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

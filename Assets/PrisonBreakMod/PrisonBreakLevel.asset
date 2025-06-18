@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f794e32e82ed5164cbb2f3809c25affa, type: 3}
+  m_Name: PrisonBreakLevel
+  m_EditorClassIdentifier: 
+  localizedLevelName:
+    m_TableReference:
+      m_TableCollectionName: GUID:09105430001d7424a9c35ff9ec274c87
+    m_TableEntryReference:
+      m_KeyId: 159430135808
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  localizedLevelDescription:
+    m_TableReference:
+      m_TableCollectionName: GUID:09105430001d7424a9c35ff9ec274c87
+    m_TableEntryReference:
+      m_KeyId: 253495791616
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  levelPreview: {fileID: 21300000, guid: 093eef6072da2d5448fe2098a373b0cb, type: 3}
+  scene:
+    m_AssetGUID: 9b62567c938889f48a25a30d00e44465
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+    name: Breakout - Level 1
+  category:
+    m_AssetGUID: 537be076635833c4f8ed7fbc0236ae32
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  levelOrderPriority: 0
+  requiresPreviousLevelToBeBeatenToPlay: 0
+  references:
+    version: 2
+    RefIds: []

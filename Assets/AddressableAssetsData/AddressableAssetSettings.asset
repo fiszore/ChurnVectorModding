@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: d4f19c8526b35754195beb82c46e5267
   m_currentHash:
     serializedVersion: 2
-    Hash: 00000000000000000000000000000000
+    Hash: db4a9f3dfe38deec4191c16595be3da1
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
@@ -76,6 +76,17 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2c762abe82009c24a90a707bddfe1ec4, type: 2}
   - {fileID: 11400000, guid: 03b1fe36a89234148b3b6e3ee0c48c33, type: 2}
   - {fileID: 11400000, guid: ba41ba5f97f56b245ab9bece70be4939, type: 2}
+  - {fileID: 11400000, guid: 0161e6ebbed084e48963796978cc4df5, type: 2}
+  - {fileID: 11400000, guid: 89a66944c38548b4b93c1a961f0eb811, type: 2}
+  - {fileID: 11400000, guid: 0b475cef9453bc64985face5e0d874a8, type: 2}
+  - {fileID: 11400000, guid: 3b3411a2966ee9245a4d465f68cd7c30, type: 2}
+  - {fileID: 11400000, guid: 4a6ab98138e956544bd5a0fc9aa2d75e, type: 2}
+  - {fileID: 11400000, guid: 20e9386448664d4409612b7a817cd063, type: 2}
+  - {fileID: 11400000, guid: ef530df98ec13bb48998e623af93053a, type: 2}
+  - {fileID: 11400000, guid: e9a9399862d3afd49bbe989e55c7dea7, type: 2}
+  - {fileID: 11400000, guid: 6245e6c2fa4f27c4e881f6caa372306b, type: 2}
+  - {fileID: 11400000, guid: 3a83d0b23d7551d4b9ae58b88a5be9f9, type: 2}
+  - {fileID: 11400000, guid: df7e209d32a3d61499969bfd73ec5af7, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -98,7 +109,7 @@ MonoBehaviour:
       - m_Id: 844a40117c8f61844a621b936e1dc210
         m_Value: http://[PrivateIpAddress]:[HostingServicePort]
       - m_Id: 57783aa40543ccd4ba899d8a06580051
-        m_Value: '[UnityEngine.Application.persistentDataPath]/mods/PlayerWithAHatMod/[BuildTarget]'
+        m_Value: '[UnityEngine.Application.persistentDataPath]/mods/CVGPlayer/[BuildTarget]'
       - m_Id: aa5e3913ee0e93a429d15ecdefa13dde
         m_Value: '{fe63e628-ea59-46e9-8411-850a7865c194}/[BuildTarget]'
     m_ProfileEntryNames:

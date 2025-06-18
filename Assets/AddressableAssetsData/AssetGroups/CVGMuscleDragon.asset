@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: CVGMuscleDragon
+  m_EditorClassIdentifier: 
+  m_GroupName: CVGMuscleDragon
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 2fbb5e58b727d9f47931b637292fec5c
+  m_SerializeEntries:
+  - m_GUID: d8271629d21b94445b73e60c8d5bc44e
+    m_Address: Assets/CVGiraffe/CVGMuscleDragon/GiraffeFutaMuscleDragon.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ChurnVectorCharacter
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d6f15c56fb6f6084da6987e06d36c051, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 3a45980e00ebef344a1567727f5215f6, type: 2}
+    - {fileID: 11400000, guid: 5804c4280e2c98d45b67c4385ed51003, type: 2}
