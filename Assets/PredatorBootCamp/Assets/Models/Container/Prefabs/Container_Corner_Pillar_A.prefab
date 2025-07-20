@@ -110,6 +110,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_ContainerCornerPillar_01a
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bdf0f4fd5f4c74f429c402c5b6b3e6fd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

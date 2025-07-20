@@ -110,6 +110,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_ContainerHalfFloor_01
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d51050eb632e970419933c744c406016,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

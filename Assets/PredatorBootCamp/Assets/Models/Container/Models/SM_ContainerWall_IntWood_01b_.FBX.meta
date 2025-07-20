@@ -12,12 +12,22 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: MI_YellowCorrugated.001
+    second: {fileID: 2100000, guid: 89838142e48ce78498f8cabe0c00dd1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: MI_YellowCorrugated_ContainerSupport
     second: {fileID: 2100000, guid: 73971ead9e18089448f41a3e86a86e25, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: M_IntWood
+    second: {fileID: 2100000, guid: a3b06f528707047409ec0327c643af3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_IntWood.001
     second: {fileID: 2100000, guid: a3b06f528707047409ec0327c643af3b, type: 2}
   materials:
     materialImportMode: 2
