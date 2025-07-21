@@ -64,6 +64,160 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 09105430001d7424a9c35ff9ec274c87
+    m_Address: Assets/PrisonBreakMod/Localization/PrisonBreakMod Shared Data.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 89971a7a3a5e3b746a70533cfcf799af
+    m_Address: PrisonBreakMod_en
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22b6254056b6f194eb482d1308a7f238
+    m_Address: PrisonBreakMod_ar
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-ar
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a4e7096785d29f941ab50e38b4b0d25a
+    m_Address: PrisonBreakMod_bg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-bg
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6247ee41e7019964fbca188b08fb69cb
+    m_Address: PrisonBreakMod_cs
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-cs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9cb6aa382869f224fbd6487e01435934
+    m_Address: PrisonBreakMod_da
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-da
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 13153e13ef50a3a4b8bc2135521879ff
+    m_Address: PrisonBreakMod_de
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-de
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16297df81d263f94d851d4992ac21004
+    m_Address: PrisonBreakMod_el
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-el
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8aad0b5919ad22043bb8cd952ae2269f
+    m_Address: PrisonBreakMod_es
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c3e4f8a278bb5ac4c8743bbb7ad6f2bd
+    m_Address: PrisonBreakMod_fi
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-fi
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21528098f370ddd48b5e7fca6dd80023
+    m_Address: PrisonBreakMod_fr
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-fr
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b07523e89d9078344ae0eec50adc17dd
+    m_Address: PrisonBreakMod_hu
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-hu
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 12701b19621e0544ca4351d77bdd12fa
+    m_Address: PrisonBreakMod_it
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-it
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b000d011a7ebd5846b788e74fb80c810
+    m_Address: PrisonBreakMod_ja
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d04194d54c887b043b9e9208948777b4
+    m_Address: PrisonBreakMod_ko
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-ko
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f181e264353213942be62d93d148ebd9
+    m_Address: PrisonBreakMod_nl
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-nl
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3211f7f5318ff30479113743b39e90f1
+    m_Address: PrisonBreakMod_no
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-no
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ceffc3e7d1b0854683e37c202703277
+    m_Address: PrisonBreakMod_pl
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-pl
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 598292dbf3c4b17458f5be96f1e05e23
+    m_Address: PrisonBreakMod_pt
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-pt
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a30fa679b0647c4b83d810a60cc8651
+    m_Address: PrisonBreakMod_ro
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-ro
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b808b363b8e46974ba62126d2d2365a9
+    m_Address: PrisonBreakMod_ru
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7803fa6144ba6be4fb2c43a8a1ca31c7
+    m_Address: PrisonBreakMod_th
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-th
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 017aeeda411096e4d8bac2eb8a022e9c
+    m_Address: PrisonBreakMod_uk
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-uk
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b559e1faf3e44c746bab4137aeb98538
+    m_Address: PrisonBreakMod_vi
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-vi
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30843c33ad5b7074687c69cdffefa4e4
+    m_Address: PrisonBreakMod_zh
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-zh
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef5f81e5d4f52d54aa76ebb9d3afea05
+    m_Address: Assets/Testing/CivilianRatHoodie.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: d6f15c56fb6f6084da6987e06d36c051, type: 2}
   m_SchemaSet:

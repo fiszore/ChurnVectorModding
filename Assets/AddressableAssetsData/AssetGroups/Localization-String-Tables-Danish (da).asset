@@ -23,12 +23,6 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-da
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 9cb6aa382869f224fbd6487e01435934
-    m_Address: PrisonBreakMod_da
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-da
-    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: d6f15c56fb6f6084da6987e06d36c051, type: 2}
   m_SchemaSet:

@@ -16,12 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: d4f19c8526b35754195beb82c46e5267
-  m_SerializeEntries:
-  - m_GUID: ef5f81e5d4f52d54aa76ebb9d3afea05
-    m_Address: Assets/Testing/CivilianRatHoodie.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: d6f15c56fb6f6084da6987e06d36c051, type: 2}
   m_SchemaSet:
