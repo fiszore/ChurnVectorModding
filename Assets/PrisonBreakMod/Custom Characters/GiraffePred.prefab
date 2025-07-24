@@ -375,11 +375,11 @@ MonoBehaviour:
     penetratorRootForward: {x: 0, y: 1, z: 0}
     penetratorRootUp: {x: 0, y: 0, z: -1}
     girthUnwrapShader: {fileID: 4800000, guid: 34d24fe4568f98c4cae4724e139cb644, type: 3}
-  squashAndStretch: 1
+  squashAndStretch: 0.1
   penetratorRenderers:
     renderers:
     - {fileID: 819386051218765523}
-  simulatedPointCount: 3
+  simulatedPointCount: 1
   jiggleSettings: {fileID: 11400000, guid: 24137bf2fa333b346a22e1d5efa30f0a, type: 2}
   leftRightCurvature: 0
   upDownCurvature: 0
