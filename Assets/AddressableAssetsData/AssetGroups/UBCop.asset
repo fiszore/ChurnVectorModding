@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UBCop
+  m_EditorClassIdentifier: 
+  m_GroupName: UBCop
+  m_Data:
+    m_SerializedData: []
+  m_GUID: a143d258e0b038049bee3fa6a6db1c80
+  m_SerializeEntries:
+  - m_GUID: 9e9da5fc961253e4dafc2a775e56ceb2
+    m_Address: Assets/UBCop/UBCop.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ChurnVectorCharacter
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d6f15c56fb6f6084da6987e06d36c051, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f15e02f0bbc2f4d47a03dc54c613a9f7, type: 2}
+    - {fileID: 11400000, guid: fa9609d681e82ba4a82addb612bc7447, type: 2}

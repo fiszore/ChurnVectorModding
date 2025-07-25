@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ca7c2a5183c6103429b9d13fd979b207, type: 3}
-  m_Name: FutaCop
+  m_Name: UBCop
   m_EditorClassIdentifier: 
   steamWorkshopID: 0
   visibility: 0
-  title: Futa Cops
-  description: 'Gives cops a little extra "weight" down below.
+  title: UB Cops
+  description: 'Sets up cops to UB characters.
 
 
-    This mod does
-    not change how cops act, and it is purely visual. They will still taze you.'
+    This mod does not change how
+    cops act, and it is purely visual. They will still taze you.'
   changeNotes: 
   previewIcon: {fileID: 21300000, guid: 2a7d522caabc4d14896c02de85ffbb35, type: 3}
   tags: 1
@@ -33,7 +33,7 @@ MonoBehaviour:
       m_SubObjectType: 
       m_EditorAssetChanged: 0
     replacementCharacter:
-      m_AssetGUID: 70a2fb23f01055049853349b69219d7b
+      m_AssetGUID: 9e9da5fc961253e4dafc2a775e56ceb2
       m_SubObjectName: 
       m_SubObjectType: 
       m_EditorAssetChanged: 0
