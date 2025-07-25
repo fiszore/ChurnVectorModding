@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: d4f19c8526b35754195beb82c46e5267
   m_currentHash:
     serializedVersion: 2
-    Hash: 00000000000000000000000000000000
+    Hash: 7c764b3d2d622b6c67c16c370e5133f9
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
@@ -30,7 +30,7 @@ MonoBehaviour:
   m_StripUnityVersionFromBundleBuild: 0
   m_DisableVisibleSubAssetRepresentations: 0
   m_ShaderBundleNaming: 2
-  m_ShaderBundleCustomNaming: ChurnVector
+  m_ShaderBundleCustomNaming: ChurnVectorMod_FutaCop
   m_MonoScriptBundleNaming: 0
   m_CheckForContentUpdateRestrictionsOption: 0
   m_MonoScriptBundleCustomNaming: ChurnVector
@@ -76,6 +76,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2c762abe82009c24a90a707bddfe1ec4, type: 2}
   - {fileID: 11400000, guid: 03b1fe36a89234148b3b6e3ee0c48c33, type: 2}
   - {fileID: 11400000, guid: ba41ba5f97f56b245ab9bece70be4939, type: 2}
+  - {fileID: 11400000, guid: 5912d73b19e318f43902f174a0838789, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -98,7 +99,7 @@ MonoBehaviour:
       - m_Id: 844a40117c8f61844a621b936e1dc210
         m_Value: http://[PrivateIpAddress]:[HostingServicePort]
       - m_Id: 57783aa40543ccd4ba899d8a06580051
-        m_Value: '[UnityEngine.Application.persistentDataPath]/mods/PlayerWithAHatMod/[BuildTarget]'
+        m_Value: '[UnityEngine.Application.persistentDataPath]/mods/FutaCop/[BuildTarget]'
       - m_Id: aa5e3913ee0e93a429d15ecdefa13dde
         m_Value: '{fe63e628-ea59-46e9-8411-850a7865c194}/[BuildTarget]'
     m_ProfileEntryNames:
