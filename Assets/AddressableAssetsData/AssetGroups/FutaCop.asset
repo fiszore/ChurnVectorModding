@@ -16,13 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 0e9d54391200e1847b541719b8bb8ce1
-  m_SerializeEntries:
-  - m_GUID: 70a2fb23f01055049853349b69219d7b
-    m_Address: Assets/FutaCop/FutaCop.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - ChurnVectorCharacter
-    FlaggedDuringContentUpdateRestriction: 0
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: d6f15c56fb6f6084da6987e06d36c051, type: 2}
   m_SchemaSet:

@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ca7c2a5183c6103429b9d13fd979b207, type: 3}
-  m_Name: FutaCop
+  m_Name: CV Cops
   m_EditorClassIdentifier: 
   steamWorkshopID: 0
   visibility: 0
-  title: Futa Cops
+  title: CV Cops
   description: 'Gives cops a little extra "weight" down below.
 
 
@@ -33,7 +33,7 @@ MonoBehaviour:
       m_SubObjectType: 
       m_EditorAssetChanged: 0
     replacementCharacter:
-      m_AssetGUID: 70a2fb23f01055049853349b69219d7b
+      m_AssetGUID: bad4faf85561d2247859e373817b1c90
       m_SubObjectName: 
       m_SubObjectType: 
       m_EditorAssetChanged: 0
