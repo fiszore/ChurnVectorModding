@@ -17,8 +17,8 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 4a5b14d128c8fb642ad1756c5868fb6e
   m_SerializeEntries:
-  - m_GUID: a12ccba20d60efa4fad58f661dfd8a41
-    m_Address: DefaultTable_fi
+  - m_GUID: d697cdff66ec95248a9482cc506cc8d5
+    m_Address: BootCamp Localization_fi
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-fi
