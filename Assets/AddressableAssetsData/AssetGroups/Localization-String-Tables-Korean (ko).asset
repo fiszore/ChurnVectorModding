@@ -17,6 +17,12 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 25842a41ca0913f4cb29509923389985
   m_SerializeEntries:
+  - m_GUID: 649d3ca812f4b9747a627fcdd5391ba1
+    m_Address: DefaultTable_ko
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ko
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 660b6ca1bef7f2e44884ba327f60c908
     m_Address: BootCamp Localization_ko
     m_ReadOnly: 1
