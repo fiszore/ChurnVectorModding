@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 252475477}
   - component: {fileID: 252475476}
   - component: {fileID: 252475475}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tent01_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25,9 +25,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 252475474}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4673569983146099185}
   - {fileID: 7690651253468906102}
@@ -72,7 +74,6 @@ Transform:
   - {fileID: 7150686135946930698}
   - {fileID: 8545214257084720529}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &252475476
 MeshFilter:
@@ -93,10 +94,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -122,6 +125,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &233596144205408933
 GameObject:
   m_ObjectHideFlags: 0
@@ -132,7 +136,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8204466913839657787}
   - component: {fileID: 1061151121184023202}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -146,12 +150,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 233596144205408933}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1061151121184023202
 MeshCollider:
@@ -161,9 +166,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 233596144205408933}
   m_Material: {fileID: 13400000, guid: 19dab84e27be5724db91dc54febb6075, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300050, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -177,7 +190,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2354014982312721730}
   - component: {fileID: 8728336315591977636}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -191,12 +204,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 499882750488265019}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &8728336315591977636
 MeshCollider:
@@ -206,9 +220,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 499882750488265019}
   m_Material: {fileID: 13400000, guid: 19dab84e27be5724db91dc54febb6075, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300054, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -222,7 +244,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8377466850210960175}
   - component: {fileID: 1738387108819816662}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -236,12 +258,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 521985760061172740}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1738387108819816662
 MeshCollider:
@@ -251,9 +274,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 521985760061172740}
   m_Material: {fileID: 13400000, guid: 19dab84e27be5724db91dc54febb6075, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300064, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -267,7 +298,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2030395514871774831}
   - component: {fileID: 4076915713409178810}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -281,12 +312,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 591430887258167333}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &4076915713409178810
 MeshCollider:
@@ -296,9 +328,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 591430887258167333}
   m_Material: {fileID: 13400000, guid: 54a8fab4663d64643ac4f6704f323b80, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300014, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -312,7 +352,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6187219375395872794}
   - component: {fileID: 3862189546486180032}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -326,12 +366,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 753443006460380739}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &3862189546486180032
 MeshCollider:
@@ -341,9 +382,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 753443006460380739}
   m_Material: {fileID: 13400000, guid: 19dab84e27be5724db91dc54febb6075, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300024, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -357,7 +406,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5420166996749944976}
   - component: {fileID: 1371613644516297280}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_40
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -371,12 +420,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 941763751119344589}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1371613644516297280
 MeshCollider:
@@ -386,9 +436,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 941763751119344589}
   m_Material: {fileID: 13400000, guid: 19dab84e27be5724db91dc54febb6075, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300080, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -402,7 +460,7 @@ GameObject:
   m_Component:
   - component: {fileID: 442124524630455863}
   - component: {fileID: 7508823973368728184}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -416,12 +474,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1141758117295401281}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &7508823973368728184
 MeshCollider:
@@ -431,9 +490,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1141758117295401281}
   m_Material: {fileID: 13400000, guid: 19dab84e27be5724db91dc54febb6075, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300060, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -447,7 +514,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4673569983146099185}
   - component: {fileID: 5587733575230290586}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -461,12 +528,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1545253030289545064}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &5587733575230290586
 MeshCollider:
@@ -476,9 +544,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1545253030289545064}
   m_Material: {fileID: 13400000, guid: 466a3b6043c3d5e4482100534886a098, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300002, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -492,7 +568,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3744551469730381348}
   - component: {fileID: 6608159543888659596}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -506,12 +582,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1591245665253071188}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &6608159543888659596
 MeshCollider:
@@ -521,9 +598,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1591245665253071188}
   m_Material: {fileID: 13400000, guid: 5b0cc3bfadc6e8d48af240b64cc93e09, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300034, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -537,7 +622,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1738868217494054497}
   - component: {fileID: 4941368107952712710}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_29
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -551,12 +636,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1595287071175004739}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &4941368107952712710
 MeshCollider:
@@ -566,9 +652,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1595287071175004739}
   m_Material: {fileID: 13400000, guid: 19dab84e27be5724db91dc54febb6075, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300058, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -582,7 +676,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7487893570051895244}
   - component: {fileID: 8309919578135267533}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_33
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -596,12 +690,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1629314086627746640}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &8309919578135267533
 MeshCollider:
@@ -611,9 +706,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1629314086627746640}
   m_Material: {fileID: 13400000, guid: 19dab84e27be5724db91dc54febb6075, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300066, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -627,7 +730,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8851697851116461304}
   - component: {fileID: 2239383386702531209}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -641,12 +744,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1942160842497246862}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &2239383386702531209
 MeshCollider:
@@ -656,9 +760,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1942160842497246862}
   m_Material: {fileID: 13400000, guid: 19dab84e27be5724db91dc54febb6075, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300056, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -672,7 +784,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6928105720099554982}
   - component: {fileID: 6124641898131702932}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -686,12 +798,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2169268169370760059}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &6124641898131702932
 MeshCollider:
@@ -701,9 +814,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2169268169370760059}
   m_Material: {fileID: 13400000, guid: 19dab84e27be5724db91dc54febb6075, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300052, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -717,7 +838,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3125673427343197160}
   - component: {fileID: 5023696294759342268}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -731,12 +852,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2360657381699236975}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &5023696294759342268
 MeshCollider:
@@ -746,9 +868,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2360657381699236975}
   m_Material: {fileID: 13400000, guid: 5b0cc3bfadc6e8d48af240b64cc93e09, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300040, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -762,7 +892,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4594583321782705509}
   - component: {fileID: 1393089378233598081}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_34
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -776,12 +906,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2572175509008554442}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1393089378233598081
 MeshCollider:
@@ -791,9 +922,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2572175509008554442}
   m_Material: {fileID: 13400000, guid: 19dab84e27be5724db91dc54febb6075, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300068, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -807,7 +946,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3872709380734605824}
   - component: {fileID: 6249234562863768038}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_36
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -821,12 +960,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3176980331458142842}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &6249234562863768038
 MeshCollider:
@@ -836,9 +976,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3176980331458142842}
   m_Material: {fileID: 13400000, guid: 19dab84e27be5724db91dc54febb6075, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300072, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -852,7 +1000,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3440617537944913178}
   - component: {fileID: 5606099259170182540}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -866,12 +1014,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3653085788773932330}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &5606099259170182540
 MeshCollider:
@@ -881,9 +1030,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3653085788773932330}
   m_Material: {fileID: 13400000, guid: 5b0cc3bfadc6e8d48af240b64cc93e09, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300030, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -897,7 +1054,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3987821401630194856}
   - component: {fileID: 816908959179853400}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -911,12 +1068,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3670935820901422634}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &816908959179853400
 MeshCollider:
@@ -926,9 +1084,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3670935820901422634}
   m_Material: {fileID: 13400000, guid: 54a8fab4663d64643ac4f6704f323b80, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300010, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -942,7 +1108,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1126251025584020506}
   - component: {fileID: 7396259886759732041}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -956,12 +1122,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3835961828851729949}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &7396259886759732041
 MeshCollider:
@@ -971,9 +1138,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3835961828851729949}
   m_Material: {fileID: 13400000, guid: 5b0cc3bfadc6e8d48af240b64cc93e09, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300032, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -987,7 +1162,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7150686135946930698}
   - component: {fileID: 2917428275915769980}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1001,12 +1176,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4296803721867331796}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &2917428275915769980
 MeshCollider:
@@ -1016,9 +1192,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4296803721867331796}
   m_Material: {fileID: 13400000, guid: 19dab84e27be5724db91dc54febb6075, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300082, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -1032,7 +1216,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5205038524998347801}
   - component: {fileID: 2760836412667448125}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1046,12 +1230,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4301834636110965459}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &2760836412667448125
 MeshCollider:
@@ -1061,9 +1246,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4301834636110965459}
   m_Material: {fileID: 13400000, guid: 5b0cc3bfadc6e8d48af240b64cc93e09, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300026, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -1077,7 +1270,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8265599957144008257}
   - component: {fileID: 3521526905075501222}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_35
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1091,12 +1284,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4573198933662209869}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &3521526905075501222
 MeshCollider:
@@ -1106,9 +1300,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4573198933662209869}
   m_Material: {fileID: 13400000, guid: 19dab84e27be5724db91dc54febb6075, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300070, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -1122,7 +1324,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4534769662742232669}
   - component: {fileID: 6276186507687736417}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_39
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1136,12 +1338,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4620209791585796969}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &6276186507687736417
 MeshCollider:
@@ -1151,9 +1354,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4620209791585796969}
   m_Material: {fileID: 13400000, guid: 19dab84e27be5724db91dc54febb6075, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300078, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -1167,7 +1378,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3256986320845497739}
   - component: {fileID: 7858812452692334102}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1181,12 +1392,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4781542940195870980}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &7858812452692334102
 MeshCollider:
@@ -1196,9 +1408,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4781542940195870980}
   m_Material: {fileID: 13400000, guid: 19dab84e27be5724db91dc54febb6075, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300048, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -1212,7 +1432,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2179866674800800698}
   - component: {fileID: 7869081096592680328}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1226,12 +1446,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5313022297852034066}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &7869081096592680328
 MeshCollider:
@@ -1241,9 +1462,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5313022297852034066}
   m_Material: {fileID: 13400000, guid: 54a8fab4663d64643ac4f6704f323b80, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300008, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -1257,7 +1486,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8545214257084720529}
   - component: {fileID: 5777317457233803562}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_42
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1271,12 +1500,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5343287039878505780}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &5777317457233803562
 MeshCollider:
@@ -1286,9 +1516,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5343287039878505780}
   m_Material: {fileID: 13400000, guid: 19dab84e27be5724db91dc54febb6075, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300084, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -1302,7 +1540,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3617509687815388405}
   - component: {fileID: 4701373249104385754}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1316,12 +1554,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5679281495264301664}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &4701373249104385754
 MeshCollider:
@@ -1331,9 +1570,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5679281495264301664}
   m_Material: {fileID: 13400000, guid: 54a8fab4663d64643ac4f6704f323b80, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300012, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -1347,7 +1594,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5466660639706348174}
   - component: {fileID: 8914822910931222546}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1361,12 +1608,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5893370603069236203}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &8914822910931222546
 MeshCollider:
@@ -1376,9 +1624,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5893370603069236203}
   m_Material: {fileID: 13400000, guid: 54a8fab4663d64643ac4f6704f323b80, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300006, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -1392,7 +1648,7 @@ GameObject:
   m_Component:
   - component: {fileID: 784628475457303858}
   - component: {fileID: 4531327417150393811}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1406,12 +1662,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6089515380947467348}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &4531327417150393811
 MeshCollider:
@@ -1421,9 +1678,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6089515380947467348}
   m_Material: {fileID: 13400000, guid: 5b0cc3bfadc6e8d48af240b64cc93e09, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300028, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -1437,7 +1702,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3136723628744122703}
   - component: {fileID: 8426202281273059766}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1451,12 +1716,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6105247055973627784}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &8426202281273059766
 MeshCollider:
@@ -1466,9 +1732,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6105247055973627784}
   m_Material: {fileID: 13400000, guid: 5b0cc3bfadc6e8d48af240b64cc93e09, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300038, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -1482,7 +1756,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3335458155877511235}
   - component: {fileID: 1690004242381995198}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1496,12 +1770,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6260604360535732287}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1690004242381995198
 MeshCollider:
@@ -1511,9 +1786,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6260604360535732287}
   m_Material: {fileID: 13400000, guid: 54a8fab4663d64643ac4f6704f323b80, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300020, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -1527,7 +1810,7 @@ GameObject:
   m_Component:
   - component: {fileID: 704247033464644348}
   - component: {fileID: 6016731742323156291}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1541,12 +1824,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6621402008658142750}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &6016731742323156291
 MeshCollider:
@@ -1556,9 +1840,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6621402008658142750}
   m_Material: {fileID: 13400000, guid: 54a8fab4663d64643ac4f6704f323b80, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300016, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -1572,7 +1864,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1814760856057960496}
   - component: {fileID: 236986947434706742}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_37
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1586,12 +1878,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6768313297514029810}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &236986947434706742
 MeshCollider:
@@ -1601,9 +1894,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6768313297514029810}
   m_Material: {fileID: 13400000, guid: 19dab84e27be5724db91dc54febb6075, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300074, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -1617,7 +1918,7 @@ GameObject:
   m_Component:
   - component: {fileID: 512402263981094645}
   - component: {fileID: 7290735084299056452}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1631,12 +1932,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6794431926858520998}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &7290735084299056452
 MeshCollider:
@@ -1646,9 +1948,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6794431926858520998}
   m_Material: {fileID: 13400000, guid: 19dab84e27be5724db91dc54febb6075, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300062, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -1662,7 +1972,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7990334196903612979}
   - component: {fileID: 3662388089570850796}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_38
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1676,12 +1986,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7054906752637373317}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &3662388089570850796
 MeshCollider:
@@ -1691,9 +2002,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7054906752637373317}
   m_Material: {fileID: 13400000, guid: 19dab84e27be5724db91dc54febb6075, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300076, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -1707,7 +2026,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2156695565622179571}
   - component: {fileID: 1863212410208828834}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1721,12 +2040,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7492129278284411491}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1863212410208828834
 MeshCollider:
@@ -1736,9 +2056,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7492129278284411491}
   m_Material: {fileID: 13400000, guid: 54a8fab4663d64643ac4f6704f323b80, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300018, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -1752,7 +2080,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2260093849466804536}
   - component: {fileID: 6473182543085978286}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1766,12 +2094,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7588580750934538429}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &6473182543085978286
 MeshCollider:
@@ -1781,9 +2110,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7588580750934538429}
   m_Material: {fileID: 13400000, guid: 19dab84e27be5724db91dc54febb6075, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300022, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -1797,7 +2134,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6723758016562020806}
   - component: {fileID: 2002786813492024340}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1811,12 +2148,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7878559230997116979}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &2002786813492024340
 MeshCollider:
@@ -1826,9 +2164,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7878559230997116979}
   m_Material: {fileID: 13400000, guid: 19dab84e27be5724db91dc54febb6075, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300046, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -1842,7 +2188,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8713050734605332943}
   - component: {fileID: 7975328703904495340}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1856,12 +2202,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8206878723217175473}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &7975328703904495340
 MeshCollider:
@@ -1871,9 +2218,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8206878723217175473}
   m_Material: {fileID: 13400000, guid: 5b0cc3bfadc6e8d48af240b64cc93e09, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300036, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -1887,7 +2242,7 @@ GameObject:
   m_Component:
   - component: {fileID: 751977938913032448}
   - component: {fileID: 963817417177323362}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1901,12 +2256,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8471260252050010785}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &963817417177323362
 MeshCollider:
@@ -1916,9 +2272,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8471260252050010785}
   m_Material: {fileID: 13400000, guid: 5b0cc3bfadc6e8d48af240b64cc93e09, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300044, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -1932,7 +2296,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3061448887066931257}
   - component: {fileID: 2843118514584560252}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1946,12 +2310,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8910343837314539037}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &2843118514584560252
 MeshCollider:
@@ -1961,9 +2326,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8910343837314539037}
   m_Material: {fileID: 13400000, guid: 5b0cc3bfadc6e8d48af240b64cc93e09, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300042, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
@@ -1977,7 +2350,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7690651253468906102}
   - component: {fileID: 1347306696874692662}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Tent01_2_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1991,12 +2364,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9008086670076077249}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000059604645, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 252475477}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1347306696874692662
 MeshCollider:
@@ -2006,9 +2380,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9008086670076077249}
   m_Material: {fileID: 13400000, guid: 54a8fab4663d64643ac4f6704f323b80, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300004, guid: b091864bfb69ad3419defb20ab3f4818, type: 3}
