@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6380728711484530682}
   - component: {fileID: 5204983583628959079}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Crate04_6_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24,13 +24,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 551096844723436960}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.00000003024017, y: -0.0000000074505815, z: -0.0000000013460508,
     w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7676556122429778375}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &5204983583628959079
 MeshCollider:
@@ -40,9 +41,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 551096844723436960}
   m_Material: {fileID: 13400000, guid: c46c21c7cb8bf7d45b7b5dbda108c267, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300002, guid: d89b1e87923fa094c85fb8d9ae74c20d, type: 3}
@@ -56,7 +65,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7337522406912662502}
   - component: {fileID: 1263737275136866940}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Crate04_6_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70,13 +79,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1678347140690533402}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.00000003024017, y: -0.0000000074505815, z: -0.0000000013460508,
     w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7676556122429778375}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1263737275136866940
 MeshCollider:
@@ -86,9 +96,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1678347140690533402}
   m_Material: {fileID: 13400000, guid: c46c21c7cb8bf7d45b7b5dbda108c267, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300008, guid: d89b1e87923fa094c85fb8d9ae74c20d, type: 3}
@@ -102,7 +120,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7230946677269504054}
   - component: {fileID: 8193109658091773851}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Crate04_6_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -116,13 +134,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3894474752905185265}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.00000003024017, y: -0.0000000074505815, z: -0.0000000013460508,
     w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7676556122429778375}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &8193109658091773851
 MeshCollider:
@@ -132,9 +151,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3894474752905185265}
   m_Material: {fileID: 13400000, guid: c46c21c7cb8bf7d45b7b5dbda108c267, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300006, guid: d89b1e87923fa094c85fb8d9ae74c20d, type: 3}
@@ -148,7 +175,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7797199174974870802}
   - component: {fileID: 8412488763137192590}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UCX_Crate04_6_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -162,13 +189,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4932989341319281872}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.00000003024017, y: -0.0000000074505815, z: -0.0000000013460508,
     w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7676556122429778375}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &8412488763137192590
 MeshCollider:
@@ -178,9 +206,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4932989341319281872}
   m_Material: {fileID: 13400000, guid: c46c21c7cb8bf7d45b7b5dbda108c267, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300004, guid: d89b1e87923fa094c85fb8d9ae74c20d, type: 3}
@@ -195,7 +231,7 @@ GameObject:
   - component: {fileID: 7676556122429778375}
   - component: {fileID: 7938894666386166423}
   - component: {fileID: 4417718479461203250}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Crate04_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -209,16 +245,17 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5234366841708853313}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6380728711484530682}
   - {fileID: 7797199174974870802}
   - {fileID: 7230946677269504054}
   - {fileID: 7337522406912662502}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7938894666386166423
 MeshFilter:
@@ -239,10 +276,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -267,3 +306,4 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
