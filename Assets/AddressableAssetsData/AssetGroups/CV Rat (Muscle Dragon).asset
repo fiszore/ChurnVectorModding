@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: CV Rat (Muscle Dragon)
+  m_EditorClassIdentifier: 
+  m_GroupName: CV Rat (Muscle Dragon)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d353237368df0e04eb84cdd757702130
+  m_SerializeEntries:
+  - m_GUID: 36219600170f45a48a7f1dc793e27395
+    m_Address: Assets/CV Rats/Muscle Dragon Rat CV/CV Rat (Dragon).prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ChurnVectorCharacter
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d6f15c56fb6f6084da6987e06d36c051, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ffc7afe51d3d5fe428a24dac0e4c4dc5, type: 2}
+    - {fileID: 11400000, guid: 81d2dec2e4e5f5544976cec7beb77401, type: 2}
