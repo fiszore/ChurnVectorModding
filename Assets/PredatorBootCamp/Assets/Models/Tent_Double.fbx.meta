@@ -3,7 +3,27 @@ guid: a6d353e7e72706b4bbbb4f62333ff2bf
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tent02In
+    second: {fileID: 2100000, guid: ee801728942cdbd4cb6a31e74343d8af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tent02In.001
+    second: {fileID: 2100000, guid: ee801728942cdbd4cb6a31e74343d8af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tent02OutA
+    second: {fileID: 2100000, guid: ffb9dfeeb91d6ca4a968406e255ee3f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tent02OutA.001
+    second: {fileID: 2100000, guid: ffb9dfeeb91d6ca4a968406e255ee3f6, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
