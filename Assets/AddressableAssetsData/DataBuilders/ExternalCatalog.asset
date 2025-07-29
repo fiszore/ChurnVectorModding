@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: ExternalCatalog
   m_EditorClassIdentifier: 
   assetGroups:
-  - {fileID: 11400000, guid: 157141c06e7fdc94585ba65efde839d8, type: 2}
+  - {fileID: 11400000, guid: 62c4d9622d2170e4abe7097c008c1ad5, type: 2}
   buildPath:
     m_Id: 57783aa40543ccd4ba899d8a06580051
   runtimeLoadPath:
     m_Id: aa5e3913ee0e93a429d15ecdefa13dde
-  catalogName: CV Cops (Canine)
+  catalogName: CV Rat (Dragon)

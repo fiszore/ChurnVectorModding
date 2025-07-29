@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: d4f19c8526b35754195beb82c46e5267
   m_currentHash:
     serializedVersion: 2
-    Hash: 34a56fe56fdcedd62b0e57a9cfe8da97
+    Hash: 5e5eea0b3f716cd616c972f8ab73ce5c
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
@@ -30,7 +30,7 @@ MonoBehaviour:
   m_StripUnityVersionFromBundleBuild: 0
   m_DisableVisibleSubAssetRepresentations: 0
   m_ShaderBundleNaming: 2
-  m_ShaderBundleCustomNaming: ChurnVectorMod_CV Cops (Canine)
+  m_ShaderBundleCustomNaming: ChurnVectorMod_CV Rat (Dragon)
   m_MonoScriptBundleNaming: 0
   m_CheckForContentUpdateRestrictionsOption: 0
   m_MonoScriptBundleCustomNaming: ChurnVector
@@ -79,6 +79,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5912d73b19e318f43902f174a0838789, type: 2}
   - {fileID: 11400000, guid: 93837d2b87044a14fa288868556c5c3d, type: 2}
   - {fileID: 11400000, guid: 157141c06e7fdc94585ba65efde839d8, type: 2}
+  - {fileID: 11400000, guid: 62c4d9622d2170e4abe7097c008c1ad5, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -101,7 +102,7 @@ MonoBehaviour:
       - m_Id: 844a40117c8f61844a621b936e1dc210
         m_Value: http://[PrivateIpAddress]:[HostingServicePort]
       - m_Id: 57783aa40543ccd4ba899d8a06580051
-        m_Value: '[UnityEngine.Application.persistentDataPath]/mods/CV Cops (Canine)/[BuildTarget]'
+        m_Value: '[UnityEngine.Application.persistentDataPath]/mods/CV Rat (Dragon)/[BuildTarget]'
       - m_Id: aa5e3913ee0e93a429d15ecdefa13dde
         m_Value: '{fe63e628-ea59-46e9-8411-850a7865c194}/[BuildTarget]'
     m_ProfileEntryNames:

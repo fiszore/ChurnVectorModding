@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca7c2a5183c6103429b9d13fd979b207, type: 3}
+  m_Name: CV Rat (Dragon)
+  m_EditorClassIdentifier: 
+  steamWorkshopID: 0
+  visibility: 0
+  title: Rat CV (Dragon Boss)
+  description: Replaces the Dragon Boss with a CV Rat.
+  changeNotes: Initial Release
+  previewIcon: {fileID: 21300000, guid: 86524c3fba9866b4e95a835f1f577891, type: 3}
+  tags: 1
+  language: 0
+  customLocalization: []
+  levels: []
+  replacementCharacters:
+  - existingCharacter:
+      m_AssetGUID: bc6ca1d0229d0784da7889b80c8d32c1
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 1
+    replacementCharacter:
+      m_AssetGUID: 6db5466d09264964b9089804984ae9ca
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0

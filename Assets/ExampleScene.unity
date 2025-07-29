@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3318849, g: 0.3479171, b: 0.50538737, a: 1}
+  m_IndirectSpecularColor: {r: 0.34532097, g: 0.3670707, b: 0.53035456, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -849,6 +849,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4661608575809896026, guid: 58d1a8b8f23688c4bbd0ff042118a4e8,
         type: 3}
+      propertyPath: managedReferences[5358413348290956053]
+      value: com.gatordragongames.churn-vector.sdk ActorActions.ActionBeCockVoreHungry
+      objectReference: {fileID: 0}
+    - target: {fileID: 4661608575809896026, guid: 58d1a8b8f23688c4bbd0ff042118a4e8,
+        type: 3}
       propertyPath: managedReferences[7979793084621783042]
       value: com.gatordragongames.churn-vector.sdk AI.CharacterActor
       objectReference: {fileID: 0}
@@ -864,8 +869,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4661608575809896026, guid: 58d1a8b8f23688c4bbd0ff042118a4e8,
         type: 3}
+      propertyPath: characterSpawnInfo.civilianPrefab.m_AssetGUID
+      value: 6db5466d09264964b9089804984ae9ca
+      objectReference: {fileID: 0}
+    - target: {fileID: 4661608575809896026, guid: 58d1a8b8f23688c4bbd0ff042118a4e8,
+        type: 3}
       propertyPath: managedReferences[7979793084621783042].startingAction
-      value: 7979793084621783043
+      value: 5358413348290956053
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
