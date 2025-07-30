@@ -870,7 +870,7 @@ PrefabInstance:
     - target: {fileID: 4661608575809896026, guid: 58d1a8b8f23688c4bbd0ff042118a4e8,
         type: 3}
       propertyPath: characterSpawnInfo.civilianPrefab.m_AssetGUID
-      value: 6db5466d09264964b9089804984ae9ca
+      value: 9d8d276faaa0e3448b06dfbff7c67423
       objectReference: {fileID: 0}
     - target: {fileID: 4661608575809896026, guid: 58d1a8b8f23688c4bbd0ff042118a4e8,
         type: 3}

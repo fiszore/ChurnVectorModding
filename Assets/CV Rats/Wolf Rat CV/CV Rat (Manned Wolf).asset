@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca7c2a5183c6103429b9d13fd979b207, type: 3}
+  m_Name: CV Rat (Manned Wolf)
+  m_EditorClassIdentifier: 
+  steamWorkshopID: 0
+  visibility: 0
+  title: Rat CV (Manned Wolf)
+  description: Replaces the Manned Wolf with a CV Rat.
+  changeNotes: Initial Release
+  previewIcon: {fileID: 21300000, guid: 1b8b009d28cd6fb4599356c0b9f188ec, type: 3}
+  tags: 1
+  language: 0
+  customLocalization: []
+  levels: []
+  replacementCharacters:
+  - existingCharacter:
+      m_AssetGUID: cdc05e7d90ede3b4699f14dab599d3a6
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    replacementCharacter:
+      m_AssetGUID: ca1a6af112617cd4bbc7d598e0073b76
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
