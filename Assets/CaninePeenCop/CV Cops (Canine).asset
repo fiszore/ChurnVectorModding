@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca7c2a5183c6103429b9d13fd979b207, type: 3}
   m_Name: CV Cops (Canine)
   m_EditorClassIdentifier: 
-  steamWorkshopID: 0
+  steamWorkshopID: 3535222732
   visibility: 0
   title: CV Cops (Canine)
   description: 'Gives cops a little extra canine-shaped "weight" down below.

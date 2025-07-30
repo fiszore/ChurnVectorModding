@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca7c2a5183c6103429b9d13fd979b207, type: 3}
   m_Name: CV Rat (Dragon)
   m_EditorClassIdentifier: 
-  steamWorkshopID: 0
+  steamWorkshopID: 3537742323
   visibility: 0
   title: Rat CV (Dragon Boss)
   description: Replaces the Dragon Boss with a CV Rat.

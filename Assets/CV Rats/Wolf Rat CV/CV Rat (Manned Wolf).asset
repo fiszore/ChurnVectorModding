@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca7c2a5183c6103429b9d13fd979b207, type: 3}
   m_Name: CV Rat (Manned Wolf)
   m_EditorClassIdentifier: 
-  steamWorkshopID: 0
-  visibility: 0
+  steamWorkshopID: 3537743435
+  visibility: 2
   title: Rat CV (Manned Wolf)
   description: Replaces the Manned Wolf with a CV Rat.
   changeNotes: Initial Release
