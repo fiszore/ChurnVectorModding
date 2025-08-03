@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Bootcamp Mod
+  m_EditorClassIdentifier: 
+  m_GroupName: Bootcamp Mod
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 3ea66c6422ddcad439eb2d2690c7b83c
+  m_SerializeEntries:
+  - m_GUID: c9016b431b7ff5d49bfce6390afec27f
+    m_Address: Assets/PredatorBootCamp/Bootcamp.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ChurnVectorLevel
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c725138925455904f8125f4cb21c67d5
+    m_Address: Assets/PredatorBootCamp/BootCamp.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e38231768403c547986727249cc9d86
+    m_Address: Assets/PredatorBootCamp/Custom Characters/General/General.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d6f15c56fb6f6084da6987e06d36c051, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d4cfe2fa8e896124198f9bb1f2510e37, type: 2}
+    - {fileID: 11400000, guid: d19d72cbcceb4544f81ce3d6c240005e, type: 2}

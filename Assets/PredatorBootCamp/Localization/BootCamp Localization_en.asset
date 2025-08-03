@@ -27,7 +27,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 233270857728
-    m_Localized: Then come back here.
+    m_Localized: Then get in the back of this truck.
     m_Metadata:
       m_Items: []
   - m_Id: 112642674688
@@ -44,6 +44,14 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 414552870912
     m_Localized: Get em too.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2068656431747072
+    m_Localized: Bootcamp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2068715659513856
+    m_Localized: Something something story, something something plot.
     m_Metadata:
       m_Items: []
   references:

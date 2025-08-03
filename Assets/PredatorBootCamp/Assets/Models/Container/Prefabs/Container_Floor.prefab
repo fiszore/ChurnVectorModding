@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3247982419402249877}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Container_Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,6 +109,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_ContainerFloor_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 89000cd26baf50c489e12543aa9d2500,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 89000cd26baf50c489e12543aa9d2500,
         type: 3}

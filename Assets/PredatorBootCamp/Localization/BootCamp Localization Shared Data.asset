@@ -43,6 +43,14 @@ MonoBehaviour:
     m_Key: CV_Liason_Desc
     m_Metadata:
       m_Items: []
+  - m_Id: 2068656431747072
+    m_Key: LEVEL_NAME_DAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2068715659513856
+    m_Key: LEVEL_DESC_DAY
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

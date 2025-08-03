@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f794e32e82ed5164cbb2f3809c25affa, type: 3}
+  m_Name: Bootcamp
+  m_EditorClassIdentifier: 
+  localizedLevelName:
+    m_TableReference:
+      m_TableCollectionName: GUID:f4b769506855c4d48bd0204d978217af
+    m_TableEntryReference:
+      m_KeyId: 2068656431747072
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  localizedLevelDescription:
+    m_TableReference:
+      m_TableCollectionName: GUID:f4b769506855c4d48bd0204d978217af
+    m_TableEntryReference:
+      m_KeyId: 2068715659513856
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  levelPreview: {fileID: 21300000, guid: 1b028391ca99f384f9fb6dc8aa63d082, type: 3}
+  scene:
+    m_AssetGUID: c725138925455904f8125f4cb21c67d5
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+    name: BootCamp
+  category:
+    m_AssetGUID: ee6a0d8ef6b61924a8cd1b0e43e61cde
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  levelOrderPriority: 0
+  requiresPreviousLevelToBeBeatenToPlay: 0
+  references:
+    version: 2
+    RefIds: []

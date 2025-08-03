@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7933893037623209223}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Container_Window_B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,6 +109,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_ContainerWIndow_IntWood_01b
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4e2ca460a77501742b42a1cf3378dbcd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4e2ca460a77501742b42a1cf3378dbcd,
         type: 3}
