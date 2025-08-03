@@ -22,9 +22,10 @@ MonoBehaviour:
     it is not finished. It''ll get there eventually.'
   changeNotes: Testing version
   previewIcon: {fileID: 21300000, guid: 1b028391ca99f384f9fb6dc8aa63d082, type: 3}
-  tags: 0
+  tags: 2
   language: 0
-  customLocalization: []
+  customLocalization:
+  - {fileID: 11400000, guid: c066d8832fb77b64d843142cb2fa78f0, type: 2}
   levels:
   - m_AssetGUID: c9016b431b7ff5d49bfce6390afec27f
     m_SubObjectName: 

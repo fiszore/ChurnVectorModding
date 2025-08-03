@@ -23,12 +23,6 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-el
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 97f98e12a7040824e9756540249548ef
-    m_Address: BootCamp Localization_el
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-el
-    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: d6f15c56fb6f6084da6987e06d36c051, type: 2}
   m_SchemaSet:

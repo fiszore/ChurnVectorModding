@@ -33,6 +33,156 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b1d92dffedd10e4f953351620bda55a
+    m_Address: Assets/PredatorBootCamp/Localization/Bootcamp_Localization Shared
+      Data.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16ae849d704a5f54089637faee5463a4
+    m_Address: Bootcamp_Localization_ar
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-ar
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0266e53c628ab9f4dae8b8b38465a2e9
+    m_Address: Bootcamp_Localization_bg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-bg
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31ac756b2fb8acf4a80ba024c2f0e953
+    m_Address: Bootcamp_Localization_zh
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-zh
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 70b075ae717a6714bb3396354695eec3
+    m_Address: Bootcamp_Localization_cs
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-cs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 696d9dffc5ad6bc4f9ca9ca4fa425c1c
+    m_Address: Bootcamp_Localization_da
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-da
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec65adee4863661438794a63ba891450
+    m_Address: Bootcamp_Localization_nl
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-nl
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 757640037340c2f4ea92c16eb5c23d50
+    m_Address: Bootcamp_Localization_en
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 529b4a1e7f57e8543807bf68a9b51088
+    m_Address: Bootcamp_Localization_fi
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-fi
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 570ad1b322832ae4eb1e692f98fd885b
+    m_Address: Bootcamp_Localization_fr
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-fr
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6edc412df6f66e64a9a10dc83bd815a2
+    m_Address: Bootcamp_Localization_de
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-de
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab7cc30fd2d8119459e0a85d0ec567a8
+    m_Address: Bootcamp_Localization_el
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-el
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c475210f7468d54abe4319b533e45e4
+    m_Address: Bootcamp_Localization_hu
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-hu
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34205c8169b873d4aadaeeb5575d5f2c
+    m_Address: Bootcamp_Localization_it
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-it
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e393df382e38fb448b15bdef6b4189f0
+    m_Address: Bootcamp_Localization_ja
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5fd539e8840f6a49b65555e4b7939f7
+    m_Address: Bootcamp_Localization_ko
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-ko
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac28a798dddd42640b5f96eca7badd0e
+    m_Address: Bootcamp_Localization_no
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-no
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e74689251664ea49afd9c583e5b3fee
+    m_Address: Bootcamp_Localization_pl
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-pl
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5eaa1131ed441c1448f1a692fd81a8fc
+    m_Address: Bootcamp_Localization_pt
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-pt
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24d6e5687f3c78345b3aaebd8addf337
+    m_Address: Bootcamp_Localization_ro
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-ro
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c832251bb6cf5fd43a1567e8e5a94196
+    m_Address: Bootcamp_Localization_ru
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e3abea87b4ad5040b34edca3aa1ac2f
+    m_Address: Bootcamp_Localization_es
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4bddf9936807c7d4e80501ff2b0ca076
+    m_Address: Bootcamp_Localization_th
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-th
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: edea7031f5f8f4a4fac72bb7fba25346
+    m_Address: Bootcamp_Localization_uk
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-uk
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3079684e3fa3c794891f1705b62232d0
+    m_Address: Bootcamp_Localization_vi
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-vi
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: d6f15c56fb6f6084da6987e06d36c051, type: 2}
   m_SchemaSet:

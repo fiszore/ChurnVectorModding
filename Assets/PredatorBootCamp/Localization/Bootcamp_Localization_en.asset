@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Bootcamp_Localization_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 1b1d92dffedd10e4f953351620bda55a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 9827700736
+    m_Localized: Bootcamp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49224798208
+    m_Localized: It's a bootcamp. For mercs or somethin.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89557225472
+    m_Localized: Get this guy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121362632704
+    m_Localized: Get this guy too.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 171622977536
+    m_Localized: Then get in the back of the truck.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210839719936
+    m_Localized: CV the General
+    m_Metadata:
+      m_Items: []
+  - m_Id: 243945361408
+    m_Localized: Get em
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277206192128
+    m_Localized: CV the Liason
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300803346432
+    m_Localized: Get em
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

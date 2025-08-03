@@ -16,9 +16,9 @@ MonoBehaviour:
   - actor: 0
     line:
       m_TableReference:
-        m_TableCollectionName: GUID:f4b769506855c4d48bd0204d978217af
+        m_TableCollectionName: GUID:1b1d92dffedd10e4f953351620bda55a
       m_TableEntryReference:
-        m_KeyId: 233270857728
+        m_KeyId: 171622977536
         m_Key: 
       m_FallbackState: 0
       m_WaitForCompletion: 0
